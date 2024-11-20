@@ -1,0 +1,14 @@
+CDMA Features
+Downloads the IICS taskflow exports through API's
+Downloads the PC workflow xml files using pmrep commands
+Extracts the required details like source, lookup, target info from exports
+Prepares the Taskflow Order by checking source-target, lookup-target dependency
+Captures and compares the input parameters, command task arguments, error handling values from PC and IDMC
+Pre Synchronization of the target tables using Merge statement
+Triggers PC and IDMC taskflows in parallel or series as per the execution order
+Captures the Taskflow, session execution details
+Captures the src and lkp queries, src and tgt record counts, pre & post sql commands, input parameter values, target connection info from both PC and IDMC Session Logs and Compares it
+Compares the targets (tables, extracts) and categorizes the records into Matching, Mismatching, Missing, Extra Records
+Prepares the taskflow Reports and comparison reports in Excel format
+Post Synchronization of the target tables using Merge statement
+Stores all the details into Oracle Tables
